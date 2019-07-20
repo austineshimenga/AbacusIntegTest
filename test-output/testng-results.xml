@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4015" started-at="2019-07-18T14:06:56Z" finished-at="2019-07-18T14:07:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4015" started-at="2019-07-18T14:06:56Z" finished-at="2019-07-18T14:07:00Z">
+      <class name="com.smart.AbacusIntegTest.GetToken.TC007_SchemeActivation">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.smart.AbacusIntegTest.GetToken.TC007_SchemeActivation@604ed9f0]" name="setup" is-config="true" duration-ms="147" started-at="2019-07-18T14:06:56Z" finished-at="2019-07-18T14:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ActivateScheme_on_Smart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.smart.AbacusIntegTest.GetToken.TC007_SchemeActivation@604ed9f0]" name="ActivateScheme_on_Smart" duration-ms="2957" started-at="2019-07-18T14:06:57Z" data-provider="schemeActivate" finished-at="2019-07-18T14:07:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[111919]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smarttest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActivateScheme_on_Smart -->
+      </class> <!-- com.smart.AbacusIntegTest.GetToken.TC007_SchemeActivation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
